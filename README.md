@@ -57,7 +57,9 @@ kubectl describe deployment web-app
 
 **Questions**:
 1. How many pods were created?
+  - 2 pods were created
 2. What is the pod naming pattern?
+  - It follows the pattern of [deployment name]-[ReplicaSet number]-[Random?]
 
 ### Task 3: Create a Service
 Create `service.yaml` to expose the deployment:
